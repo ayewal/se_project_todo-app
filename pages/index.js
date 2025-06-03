@@ -33,7 +33,6 @@ const newTodoValidator = new FormValidator(validationConfig, addTodoForm);
 newTodoValidator.enableValidation();
 
 addTodoButton.addEventListener("click", () => {
-  newTodoValidator.resetValidation();
   openModal(addTodoPopup);
 });
 
